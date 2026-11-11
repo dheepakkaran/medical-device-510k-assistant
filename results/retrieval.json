@@ -1,0 +1,142 @@
+{
+  "n": 20,
+  "methods": {
+    "keyword": {
+      "hit@1": 12,
+      "hit@3": 16,
+      "hit@5": 18
+    },
+    "vector": {
+      "hit@1": 9,
+      "hit@3": 14,
+      "hit@5": 15
+    },
+    "hybrid": {
+      "hit@1": 12,
+      "hit@3": 14,
+      "hit@5": 17
+    }
+  },
+  "per_question": [
+    {
+      "id": "q01",
+      "keyword": 1,
+      "vector": 1,
+      "hybrid": 1
+    },
+    {
+      "id": "q02",
+      "keyword": 3,
+      "vector": 3,
+      "hybrid": 4
+    },
+    {
+      "id": "q03",
+      "keyword": 1,
+      "vector": 1,
+      "hybrid": 1
+    },
+    {
+      "id": "q04",
+      "keyword": 5,
+      "vector": null,
+      "hybrid": null
+    },
+    {
+      "id": "q05",
+      "keyword": 1,
+      "vector": 2,
+      "hybrid": 1
+    },
+    {
+      "id": "q06",
+      "keyword": 1,
+      "vector": 1,
+      "hybrid": 1
+    },
+    {
+      "id": "q07",
+      "keyword": null,
+      "vector": null,
+      "hybrid": null
+    },
+    {
+      "id": "q08",
+      "keyword": 3,
+      "vector": null,
+      "hybrid": 5
+    },
+    {
+      "id": "q09",
+      "keyword": 4,
+      "vector": null,
+      "hybrid": null
+    },
+    {
+      "id": "q10",
+      "keyword": null,
+      "vector": 3,
+      "hybrid": 3
+    },
+    {
+      "id": "q11",
+      "keyword": 1,
+      "vector": 1,
+      "hybrid": 1
+    },
+    {
+      "id": "q12",
+      "keyword": 1,
+      "vector": 1,
+      "hybrid": 1
+    },
+    {
+      "id": "q13",
+      "keyword": 1,
+      "vector": null,
+      "hybrid": 1
+    },
+    {
+      "id": "q14",
+      "keyword": 1,
+      "vector": 1,
+      "hybrid": 1
+    },
+    {
+      "id": "q15",
+      "keyword": 1,
+      "vector": 1,
+      "hybrid": 1
+    },
+    {
+      "id": "q16",
+      "keyword": 1,
+      "vector": 1,
+      "hybrid": 1
+    },
+    {
+      "id": "q17",
+      "keyword": 2,
+      "vector": 5,
+      "hybrid": 4
+    },
+    {
+      "id": "q18",
+      "keyword": 1,
+      "vector": 1,
+      "hybrid": 1
+    },
+    {
+      "id": "q19",
+      "keyword": 1,
+      "vector": 2,
+      "hybrid": 1
+    },
+    {
+      "id": "q20",
+      "keyword": 2,
+      "vector": 3,
+      "hybrid": 2
+    }
+  ]
+}

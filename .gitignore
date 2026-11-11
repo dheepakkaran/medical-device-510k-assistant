@@ -9,3 +9,4 @@ data/guidance/*.pdf
 .pytest_cache/
 web/node_modules/
 web/dist/
+BUILD-LOG.md

@@ -1,0 +1,14 @@
+services:
+  db:
+    image: pgvector/pgvector:pg17
+    environment: { POSTGRES_PASSWORD: postgres, POSTGRES_DB: md510k }
+    ports: ["5433:5432"]
+    healthcheck: { test: ["CMD", "pg_isready", "-U", "postgres"], interval: 3s, retries: 20 }
+  api:
+    build: .
+    environment:
+      DATABASE_URL: postgresql://postgres:postgres@db:5432/md510k
+      ANTHROPIC_API_KEY: ${ANTHROPIC_API_KEY:-}
+    volumes: ["./data:/app/data", "./results:/app/results"]
+    ports: ["8000:8000"]
+    depends_on: { db: { condition: service_healthy } }

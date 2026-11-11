@@ -1,0 +1,820 @@
+{
+  "summary": {
+    "cascade_test20": {
+      "n": 20,
+      "answered": 19,
+      "all_quotes_verified": 20,
+      "cites_gold_page": 15,
+      "gold_page_retrieved": 17,
+      "escalated_to_strong": 0,
+      "cost_usd": 0.0083
+    },
+    "cascade_negatives": {
+      "n": 3,
+      "answered": 0,
+      "all_quotes_verified": 3,
+      "cites_gold_page": 0,
+      "gold_page_retrieved": 0,
+      "escalated_to_strong": 0,
+      "cost_usd": 0.0007
+    },
+    "strong_only_q01_q10": {
+      "n": 10,
+      "answered": 10,
+      "all_quotes_verified": 10,
+      "cites_gold_page": 5,
+      "gold_page_retrieved": 7,
+      "escalated_to_strong": 0,
+      "cost_usd": 0.161
+    },
+    "cascade_q01_q10": {
+      "n": 10,
+      "answered": 9,
+      "all_quotes_verified": 10,
+      "cites_gold_page": 5,
+      "gold_page_retrieved": 7,
+      "escalated_to_strong": 0,
+      "cost_usd": 0.0039
+    }
+  },
+  "rows": {
+    "cascade_test20": [
+      {
+        "id": "q01",
+        "found": true,
+        "verified": true,
+        "escalated": false,
+        "retrieved_gold": true,
+        "cites_gold_page": true,
+        "answer": "No. The guidance states that a \"split predicate\" is inconsistent with the 510(k) standard, because it compares the new device's intended use to one marketed device while comparing its technological characteristics to a second device with a different intended use. Generally, FDA must address Decision Points 1 through 4 using one predicate device identified by the manufacturer.",
+        "citations": [
+          {
+            "passage_id": 53,
+            "quote": "Therefore, the use of a \u201csplit predicate\u201d is inconsistent with the 510(k) regulatory standard.",
+            "doc_id": "se",
+            "doc_title": "The 510(k) Program: Evaluating Substantial Equivalence (2014)",
+            "page": 14
+          },
+          {
+            "passage_id": 53,
+            "quote": "a manufacturer is attempting to \u201csplit\u201d the 510(k) decision making process by demonstrating that a new device has the same intended use as one marketed device while comparing the new device\u2019s technological characteristics with a second marketed device that has a different intended use.",
+            "doc_id": "se",
+            "doc_title": "The 510(k) Program: Evaluating Substantial Equivalence (2014)",
+            "page": 14
+          },
+          {
+            "passage_id": 53,
+            "quote": "FDA must be able to address Decision Points 1 through 4 in the Flowchart using one predicate device identified by the manufacturer.",
+            "doc_id": "se",
+            "doc_title": "The 510(k) Program: Evaluating Substantial Equivalence (2014)",
+            "page": 14
+          }
+        ]
+      },
+      {
+        "id": "q02",
+        "found": false,
+        "verified": true,
+        "escalated": false,
+        "retrieved_gold": true,
+        "cites_gold_page": false,
+        "answer": "",
+        "citations": []
+      },
+      {
+        "id": "q03",
+        "found": true,
+        "verified": true,
+        "escalated": false,
+        "retrieved_gold": true,
+        "cites_gold_page": true,
+        "answer": "FDA may request clinical performance data to support a substantial equivalence determination when analytical or non-clinical bench performance testing data, or non-clinical animal and/or biocompatibility studies, are insufficient, or when available scientific methods are not acceptable, such as when they are not clinically validated or not supported by a valid scientific rationale. FDA also requests clinical data when non-clinical test methods are limited or inappropriate because of the indications for use or device technology.",
+        "citations": [
+          {
+            "passage_id": 113,
+            "quote": "When analytical or non-clinical bench performance testing data, or non-clinical animal and/or biocompatibility studies are insufficient, or available scientific methods are not acceptable",
+            "doc_id": "se",
+            "doc_title": "The 510(k) Program: Evaluating Substantial Equivalence (2014)",
+            "page": 26
+          },
+          {
+            "passage_id": 121,
+            "quote": "FDA requests clinical data for a 510(k) submission to address issues that cannot be adequately addressed using non-clinical test methods because of the indications for use or device technology.",
+            "doc_id": "se",
+            "doc_title": "The 510(k) Program: Evaluating Substantial Equivalence (2014)",
+            "page": 28
+          }
+        ]
+      },
+      {
+        "id": "q04",
+        "found": true,
+        "verified": true,
+        "escalated": false,
+        "retrieved_gold": false,
+        "cites_gold_page": false,
+        "answer": "No. The guidance lists a change in patient population, such as adult versus pediatric, as an example of an indications change that may constitute a new intended use, not as an automatic one. Whether a changed population creates a new intended use depends on the specific indications and the predicate's intended use.",
+        "citations": [
+          {
+            "passage_id": 90,
+            "quote": "a change in the patient population (e.g., adult versus pediatric; different disease populations);",
+            "doc_id": "se",
+            "doc_title": "The 510(k) Program: Evaluating Substantial Equivalence (2014)",
+            "page": 21
+          },
+          {
+            "passage_id": 78,
+            "quote": "examples of changes in indications for use that may constitute a new intended use",
+            "doc_id": "se",
+            "doc_title": "The 510(k) Program: Evaluating Substantial Equivalence (2014)",
+            "page": 19
+          },
+          {
+            "passage_id": 117,
+            "quote": "Clinical data (concerning all diseases in the newly specified set) might establish that the indications for use for the new device fall within the intended use of the predicate device.",
+            "doc_id": "se",
+            "doc_title": "The 510(k) Program: Evaluating Substantial Equivalence (2014)",
+            "page": 27
+          }
+        ]
+      },
+      {
+        "id": "q05",
+        "found": true,
+        "verified": true,
+        "escalated": false,
+        "retrieved_gold": true,
+        "cites_gold_page": true,
+        "answer": "FDA's early review informs the submitter within the first 15 calendar days after receipt of the submission whether it is administratively complete, or identifies the missing elements if it is not.",
+        "citations": [
+          {
+            "passage_id": 177,
+            "quote": "to inform the submitter within the first 15 calendar days after receipt of the submission if the submission is administratively complete",
+            "doc_id": "rta",
+            "doc_title": "Refuse to Accept Policy for 510(k)s (2022)",
+            "page": 5
+          },
+          {
+            "passage_id": 187,
+            "quote": "The acceptance review occurs prior to the substantive review and should be conducted and completed within 15 calendar days of FDA receiving the 510(k) notification.",
+            "doc_id": "rta",
+            "doc_title": "Refuse to Accept Policy for 510(k)s (2022)",
+            "page": 8
+          }
+        ]
+      },
+      {
+        "id": "q06",
+        "found": true,
+        "verified": true,
+        "escalated": false,
+        "retrieved_gold": true,
+        "cites_gold_page": true,
+        "answer": "Information about fees and payment procedures for submitting a 510(k) notification can be found in FDA's guidance document \"User Fees and Refunds for Premarket Notification Submissions (510(k)s).\"",
+        "citations": [
+          {
+            "passage_id": 184,
+            "quote": "Information pertaining to the fees and payment procedures for submission of a 510(k) notification can be found in FDA\u2019s guidance document \u201cUser Fees and Refunds for Premarket Notification Submissions (510(k)s).\u201d",
+            "doc_id": "rta",
+            "doc_title": "Refuse to Accept Policy for 510(k)s (2022)",
+            "page": 7
+          }
+        ]
+      },
+      {
+        "id": "q07",
+        "found": true,
+        "verified": true,
+        "escalated": false,
+        "retrieved_gold": false,
+        "cites_gold_page": false,
+        "answer": "The submission must contain a Truthful and Accuracy Statement under 21 CFR 807.87(l).",
+        "citations": [
+          {
+            "passage_id": 413,
+            "quote": "Submission contains a Truthful and Accuracy Statement per 21 CFR 807.87(l).",
+            "doc_id": "rta",
+            "doc_title": "Refuse to Accept Policy for 510(k)s (2022)",
+            "page": 95
+          }
+        ]
+      },
+      {
+        "id": "q08",
+        "found": true,
+        "verified": true,
+        "escalated": false,
+        "retrieved_gold": true,
+        "cites_gold_page": false,
+        "answer": "Within 15 calendar days of receipt of the 510(k), FDA staff answer a set of preliminary questions, which the 510(k) lead reviewer uses as an initial screening before the rest of the acceptance review.",
+        "citations": [
+          {
+            "passage_id": 207,
+            "quote": "Within 15 calendar days of receipt of the 510(k), FDA staff should answer the preliminary questions below, which are included on the first page of the Acceptance Checklists",
+            "doc_id": "rta",
+            "doc_title": "Refuse to Accept Policy for 510(k)s (2022)",
+            "page": 13
+          },
+          {
+            "passage_id": 207,
+            "quote": "The preliminary questions are intended to be answered by the 510(k) lead reviewer as an initial screening of the submission.",
+            "doc_id": "rta",
+            "doc_title": "Refuse to Accept Policy for 510(k)s (2022)",
+            "page": 13
+          }
+        ]
+      },
+      {
+        "id": "q09",
+        "found": true,
+        "verified": true,
+        "escalated": false,
+        "retrieved_gold": false,
+        "cites_gold_page": false,
+        "answer": "If the submission cites FDA-recognized voluntary consensus standards, it should include a Declaration of Conformity (DOC) as outlined in FDA's guidance \"Appropriate Use of Voluntary Consensus Standards in Premarket Submissions for Medical Devices.\" If citing general use of a standard under that guidance, the basis of such use should be included along with the underlying information or data.",
+        "citations": [
+          {
+            "passage_id": 332,
+            "quote": "The submission includes a Declaration of Conformity (DOC) as outlined in FDA's guidance \"Appropriate Use of Voluntary Consensus Standards in Premarket Submissions for Medical Devices,\"",
+            "doc_id": "rta",
+            "doc_title": "Refuse to Accept Policy for 510(k)s (2022)",
+            "page": 60
+          }
+        ]
+      },
+      {
+        "id": "q10",
+        "found": true,
+        "verified": true,
+        "escalated": false,
+        "retrieved_gold": true,
+        "cites_gold_page": true,
+        "answer": "Enhanced Documentation should be provided for any premarket submission that includes device software function(s) where a failure or flaw could present a hazardous situation with a probable risk of death or serious injury, assessed prior to implementation of risk control measures. The Documentation Level is based on the risks of the device software function(s) in the context of the device's intended use.",
+        "citations": [
+          {
+            "passage_id": 471,
+            "quote": "Enhanced Documentation should be provided for any premarket submission that includes device software function(s) where a failure or flaw of any device software function(s) could present a hazardous situation with a probable",
+            "doc_id": "swf",
+            "doc_title": "Content of Premarket Submissions for Device Software Functions (2023)",
+            "page": 12
+          },
+          {
+            "passage_id": 471,
+            "quote": "These risks should be assessed prior to implementation of risk control measures.",
+            "doc_id": "swf",
+            "doc_title": "Content of Premarket Submissions for Device Software Functions (2023)",
+            "page": 12
+          }
+        ]
+      },
+      {
+        "id": "q11",
+        "found": true,
+        "verified": true,
+        "escalated": false,
+        "retrieved_gold": true,
+        "cites_gold_page": true,
+        "answer": "Yes, in part. For a Class III device, a sponsor may determine that Enhanced Documentation does not apply, but the sponsor should then provide an appropriately detailed rationale for why Basic Documentation is appropriate.",
+        "citations": [
+          {
+            "passage_id": 475,
+            "quote": "a sponsor may determine that an Enhanced Documentation level does not apply",
+            "doc_id": "swf",
+            "doc_title": "Content of Premarket Submissions for Device Software Functions (2023)",
+            "page": 13
+          },
+          {
+            "passage_id": 475,
+            "quote": "the sponsor should provide an appropriately detailed rationale as to why Basic Documentation instead of Enhanced Documentation is appropriate for the premarket submission",
+            "doc_id": "swf",
+            "doc_title": "Content of Premarket Submissions for Device Software Functions (2023)",
+            "page": 13
+          }
+        ]
+      },
+      {
+        "id": "q12",
+        "found": true,
+        "verified": true,
+        "escalated": false,
+        "retrieved_gold": true,
+        "cites_gold_page": true,
+        "answer": "The system level test report should show that any unresolved anomalies have been acceptably deferred based on a risk assessment for the candidate release version. Unresolved anomalies should also be listed with an evaluation of each one's impact on the device's safety and effectiveness.",
+        "citations": [
+          {
+            "passage_id": 531,
+            "quote": "any unresolved anomalies have been acceptably deferred based on a risk assessment for the candidate release version",
+            "doc_id": "swf",
+            "doc_title": "Content of Premarket Submissions for Device Software Functions (2023)",
+            "page": 30
+          },
+          {
+            "passage_id": 484,
+            "quote": "List of remaining unresolved software anomalies with an evaluation of the impact of each unresolved software anomaly on the device\u2019s safety and effectiveness.",
+            "doc_id": "swf",
+            "doc_title": "Content of Premarket Submissions for Device Software Functions (2023)",
+            "page": 16
+          }
+        ]
+      },
+      {
+        "id": "q13",
+        "found": true,
+        "verified": true,
+        "escalated": false,
+        "retrieved_gold": true,
+        "cites_gold_page": true,
+        "answer": "For a modification to an existing approved or cleared device, the software requirements should highlight all pertinent differences in software requirements. This is one of the recommendations for preparing SRS documentation to facilitate timely premarket review.",
+        "citations": [
+          {
+            "passage_id": 507,
+            "quote": "If the premarket submission involves a modification to an existing approved or cleared device, highlight all pertinent differences in software requirements.",
+            "doc_id": "swf",
+            "doc_title": "Content of Premarket Submissions for Device Software Functions (2023)",
+            "page": 23
+          }
+        ]
+      },
+      {
+        "id": "q14",
+        "found": true,
+        "verified": true,
+        "escalated": false,
+        "retrieved_gold": true,
+        "cites_gold_page": true,
+        "answer": "When preparing the software description, the guidance directs sponsors to address questions such as the role of the software in relation to the device's intended use. The passages shown are truncated, so the full list of questions is not visible here.",
+        "citations": [
+          {
+            "passage_id": 487,
+            "quote": "What is the role of the software as it relates to the intended use of the device?",
+            "doc_id": "swf",
+            "doc_title": "Content of Premarket Submissions for Device Software Functions (2023)",
+            "page": 17
+          }
+        ]
+      },
+      {
+        "id": "q15",
+        "found": true,
+        "verified": true,
+        "escalated": false,
+        "retrieved_gold": true,
+        "cites_gold_page": true,
+        "answer": "FDA recommends sponsors refer to an FDA-recognized version of ISO 14971 for additional information on the development and application of a risk management file.",
+        "citations": [
+          {
+            "passage_id": 494,
+            "quote": "FDA recommends sponsors refer to an FDA-recognized version of ISO 14971 for additional information on the development and application of a risk management file.",
+            "doc_id": "swf",
+            "doc_title": "Content of Premarket Submissions for Device Software Functions (2023)",
+            "page": 19
+          }
+        ]
+      },
+      {
+        "id": "q16",
+        "found": true,
+        "verified": true,
+        "escalated": false,
+        "retrieved_gold": true,
+        "cites_gold_page": true,
+        "answer": "Yes. FDA recognizes that tracing a hazard to many requirements, specifications and tests can make the risk assessment cumbersome, so sponsors may present this traceability in a separate document linking software requirements specifications, software design specifications, testing and identified hazards.",
+        "citations": [
+          {
+            "passage_id": 501,
+            "quote": "Therefore, sponsors may choose to present this traceability in a separate document linking together software requirements specifications, software design specifications, testing and identified hazards derived from the risk assessment.",
+            "doc_id": "swf",
+            "doc_title": "Content of Premarket Submissions for Device Software Functions (2023)",
+            "page": 21
+          }
+        ]
+      },
+      {
+        "id": "q17",
+        "found": true,
+        "verified": true,
+        "escalated": false,
+        "retrieved_gold": true,
+        "cites_gold_page": true,
+        "answer": "ANSI/AAMI/IEC 62304 Medical Device Software - Software Life Cycle Processes covers the software life cycle process for medical device software.",
+        "citations": [
+          {
+            "passage_id": 453,
+            "quote": "ANSI/AAMI/IEC 62304: Medical Device Software - Software Life Cycle Processes",
+            "doc_id": "swf",
+            "doc_title": "Content of Premarket Submissions for Device Software Functions (2023)",
+            "page": 7
+          }
+        ]
+      },
+      {
+        "id": "q18",
+        "found": true,
+        "verified": true,
+        "escalated": false,
+        "retrieved_gold": true,
+        "cites_gold_page": true,
+        "answer": "For the purpose of the 510(k) guidance, a \"new device\" means a device within the meaning of section 201(h) of the FD&C Act that is not legally marketed. It can be either a completely new device or a modification of a legally marketed device that would require a new 510(k).",
+        "citations": [
+          {
+            "passage_id": 12,
+            "quote": "For the purpose of this guidance document, a \u201cnew device\u201d means a device within the meaning of section 201(h) of the FD&C Act that is not legally marketed.",
+            "doc_id": "se",
+            "doc_title": "The 510(k) Program: Evaluating Substantial Equivalence (2014)",
+            "page": 5
+          },
+          {
+            "passage_id": 12,
+            "quote": "It can be either a completely new device or a modification of a legally marketed device that would require a new 510(k).",
+            "doc_id": "se",
+            "doc_title": "The 510(k) Program: Evaluating Substantial Equivalence (2014)",
+            "page": 5
+          }
+        ]
+      },
+      {
+        "id": "q19",
+        "found": true,
+        "verified": true,
+        "escalated": false,
+        "retrieved_gold": true,
+        "cites_gold_page": true,
+        "answer": "Yes. The acceptance policy does alter the start of the FDA review clock for MDUFA performance goals for submissions that are not accepted for review. For a submission designated RTA, the clock start date is not yet known and becomes the DCC receipt date of the additional information that results in an acceptance designation.",
+        "citations": [
+          {
+            "passage_id": 183,
+            "quote": "it does alter the start of the FDA review clock for purposes of MDUFA performance goals for those submissions that are not accepted for review.",
+            "doc_id": "rta",
+            "doc_title": "Refuse to Accept Policy for 510(k)s (2022)",
+            "page": 7
+          },
+          {
+            "passage_id": 198,
+            "quote": "if the submission is designated RTA, the FDA review clock start date is not yet known.",
+            "doc_id": "rta",
+            "doc_title": "Refuse to Accept Policy for 510(k)s (2022)",
+            "page": 11
+          }
+        ]
+      },
+      {
+        "id": "q20",
+        "found": true,
+        "verified": true,
+        "escalated": false,
+        "retrieved_gold": true,
+        "cites_gold_page": true,
+        "answer": "In the coated knee implant example, Decision Point 1 is answered \"yes\" because FDA determines the new device has an appropriate predicate device, which is the legally marketed knee implant with coating A.",
+        "citations": [
+          {
+            "passage_id": 65,
+            "quote": "FDA determines that the new device has an appropriate predicate device (thus, answering \u201cyes\u201d at Decision Point 1)",
+            "doc_id": "se",
+            "doc_title": "The 510(k) Program: Evaluating Substantial Equivalence (2014)",
+            "page": 16
+          }
+        ]
+      }
+    ],
+    "cascade_negatives": [
+      {
+        "id": "n01",
+        "found": false,
+        "verified": true,
+        "escalated": false,
+        "retrieved_gold": false,
+        "cites_gold_page": false,
+        "answer": "",
+        "citations": []
+      },
+      {
+        "id": "n02",
+        "found": false,
+        "verified": true,
+        "escalated": false,
+        "retrieved_gold": false,
+        "cites_gold_page": false,
+        "answer": "",
+        "citations": []
+      },
+      {
+        "id": "n03",
+        "found": false,
+        "verified": true,
+        "escalated": false,
+        "retrieved_gold": false,
+        "cites_gold_page": false,
+        "answer": "",
+        "citations": []
+      }
+    ],
+    "strong_only_q01_q10": [
+      {
+        "id": "q01",
+        "found": true,
+        "verified": true,
+        "escalated": false,
+        "retrieved_gold": true,
+        "cites_gold_page": true,
+        "answer": "No. FDA considers this a \"split predicate,\" meaning one device supplies the intended use and a second device with a different intended use supplies the technological comparison, and FDA calls this inconsistent with the 510(k) standard. As a general matter, FDA must be able to address Decision Points 1 through 4 using one predicate device. Multiple predicates are allowed in certain circumstances, but each must have the same intended use as the new device.",
+        "citations": [
+          {
+            "passage_id": 53,
+            "quote": "Therefore, the use of a \u201csplit predicate\u201d is inconsistent with the 510(k) regulatory standard.",
+            "doc_id": "se",
+            "doc_title": "The 510(k) Program: Evaluating Substantial Equivalence (2014)",
+            "page": 14
+          },
+          {
+            "passage_id": 53,
+            "quote": "\u201cSplit predicate\u201d refers to a situation in which a manufacturer is attempting to \u201csplit\u201d the 510(k) decision making process by demonstrating that a new device has the same intended use as one marketed device while comparing the new device\u2019s technological characteristics with a second marketed device that has a different intended use.",
+            "doc_id": "se",
+            "doc_title": "The 510(k) Program: Evaluating Substantial Equivalence (2014)",
+            "page": 14
+          },
+          {
+            "passage_id": 53,
+            "quote": "As a general matter, to find a device substantially equivalent, FDA must be able to address Decision Points 1 through 4 in the Flowchart using one predicate device identified by the manufacturer.",
+            "doc_id": "se",
+            "doc_title": "The 510(k) Program: Evaluating Substantial Equivalence (2014)",
+            "page": 14
+          },
+          {
+            "passage_id": 166,
+            "quote": "If using multiple predicate devices to demonstrate substantial equivalence, each predicate device must have the same intended use as the new device, and any different technological characteristics between the new device and the predicate devices must not raise different questions of safety and effectiveness.",
+            "doc_id": "se",
+            "doc_title": "The 510(k) Program: Evaluating Substantial Equivalence (2014)",
+            "page": 42
+          }
+        ]
+      },
+      {
+        "id": "q02",
+        "found": true,
+        "verified": true,
+        "escalated": false,
+        "retrieved_gold": true,
+        "cites_gold_page": false,
+        "answer": "The passages allow, in certain instances, additional devices beyond the single predicate, and they mention \"reference devices,\" which the manufacturer must identify and justify. However, they do not say specifically that a reference device can be used to support a new test method; that detail is not in the provided text and should be checked in the full guidance.",
+        "citations": [
+          {
+            "passage_id": 53,
+            "quote": "FDA may use one or more additional devices proposed by the manufacturer in certain instances to help support substantial equivalence, as described below.",
+            "doc_id": "se",
+            "doc_title": "The 510(k) Program: Evaluating Substantial Equivalence (2014)",
+            "page": 14
+          },
+          {
+            "passage_id": 76,
+            "quote": "If multiple predicates or reference devices are used in accordance with this guidance, the manufacturer should identify each device and explain why more than one predicate or a reference device is necessary and appropriate to support substantial equivalence.",
+            "doc_id": "se",
+            "doc_title": "The 510(k) Program: Evaluating Substantial Equivalence (2014)",
+            "page": 18
+          }
+        ]
+      },
+      {
+        "id": "q03",
+        "found": true,
+        "verified": true,
+        "escalated": false,
+        "retrieved_gold": true,
+        "cites_gold_page": true,
+        "answer": "FDA may request clinical performance data when analytical or non-clinical bench testing, or non-clinical animal and/or biocompatibility studies, are insufficient, or when the available scientific methods are unacceptable (e.g., not clinically validated or not supported by a valid scientific rationale). It also requests clinical data for issues that non-clinical test methods cannot adequately address because of the device's indications for use or technology. In practice, the Office of Device Evaluation requests clinical data for fewer than 10 percent of 510(k)s.",
+        "citations": [
+          {
+            "passage_id": 113,
+            "quote": "When analytical or non-clinical bench performance testing data, or non-clinical animal and/or biocompatibility studies are insufficient, or available scientific methods are not acceptable",
+            "doc_id": "se",
+            "doc_title": "The 510(k) Program: Evaluating Substantial Equivalence (2014)",
+            "page": 26
+          },
+          {
+            "passage_id": 114,
+            "quote": "a valid scientific rationale, FDA may request clinical performance data to support a substantial equivalence determination.",
+            "doc_id": "se",
+            "doc_title": "The 510(k) Program: Evaluating Substantial Equivalence (2014)",
+            "page": 26
+          },
+          {
+            "passage_id": 121,
+            "quote": "FDA requests clinical data for a 510(k) submission to address issues that cannot be adequately addressed using non-clinical test methods because of the indications for use or device technology.",
+            "doc_id": "se",
+            "doc_title": "The 510(k) Program: Evaluating Substantial Equivalence (2014)",
+            "page": 28
+          },
+          {
+            "passage_id": 114,
+            "quote": "For 510(k)s reviewed in the Office of Device Evaluation, FDA currently requests clinical data for less than 10 percent of the 510(k) submissions.",
+            "doc_id": "se",
+            "doc_title": "The 510(k) Program: Evaluating Substantial Equivalence (2014)",
+            "page": 26
+          }
+        ]
+      },
+      {
+        "id": "q04",
+        "found": true,
+        "verified": true,
+        "escalated": false,
+        "retrieved_gold": false,
+        "cites_gold_page": false,
+        "answer": "The passages do not say it always does. A change in the patient population (e.g., adult versus pediatric, or different disease populations) is listed among the indication changes that are more likely to result in a new intended use, because they are more likely to significantly affect safety or effectiveness. The guidance also gives examples where clinical data might show that new indications covering an added disease population still fall within the predicate device's intended use.",
+        "citations": [
+          {
+            "passage_id": 90,
+            "quote": "indications for use result in a new intended use because they are more likely to significantly affect safety or effectiveness:",
+            "doc_id": "se",
+            "doc_title": "The 510(k) Program: Evaluating Substantial Equivalence (2014)",
+            "page": 21
+          },
+          {
+            "passage_id": 90,
+            "quote": "a change in the patient population (e.g., adult versus pediatric; different disease populations);",
+            "doc_id": "se",
+            "doc_title": "The 510(k) Program: Evaluating Substantial Equivalence (2014)",
+            "page": 21
+          },
+          {
+            "passage_id": 117,
+            "quote": "Clinical data (concerning all diseases in the newly specified set) might establish that the indications for use for the new device fall within the intended use of the predicate device.",
+            "doc_id": "se",
+            "doc_title": "The 510(k) Program: Evaluating Substantial Equivalence (2014)",
+            "page": 27
+          }
+        ]
+      },
+      {
+        "id": "q05",
+        "found": true,
+        "verified": true,
+        "escalated": false,
+        "retrieved_gold": true,
+        "cites_gold_page": true,
+        "answer": "Under the RTA policy, FDA conducts an early acceptance review and informs the submitter within the first 15 calendar days after receipt whether the 510(k) is administratively complete, or identifies the missing elements if not. If FDA does not complete the acceptance review within those 15 calendar days, the submitter should be electronically notified that the review was not completed and the submission is under substantive review.",
+        "citations": [
+          {
+            "passage_id": 177,
+            "quote": "to inform the submitter within the first 15 calendar days after receipt of the submission if the submission is administratively complete, or if not, to identify the missing element(s)",
+            "doc_id": "rta",
+            "doc_title": "Refuse to Accept Policy for 510(k)s (2022)",
+            "page": 5
+          },
+          {
+            "passage_id": 194,
+            "quote": "the submitter should be electronically notified that the acceptance review was not completed and the submission is under substantive review.",
+            "doc_id": "rta",
+            "doc_title": "Refuse to Accept Policy for 510(k)s (2022)",
+            "page": 10
+          }
+        ]
+      },
+      {
+        "id": "q06",
+        "found": true,
+        "verified": true,
+        "escalated": false,
+        "retrieved_gold": true,
+        "cites_gold_page": true,
+        "answer": "The Refuse to Accept guidance points to a separate FDA guidance, \"User Fees and Refunds for Premarket Notification Submissions (510(k)s),\" for fee and payment information. It also notes that FDA will not process a 510(k) unless it is sent with the required user fee and a valid eCopy is provided.",
+        "citations": [
+          {
+            "passage_id": 184,
+            "quote": "Information pertaining to the fees and payment procedures for submission of a 510(k) notification can be found in FDA\u2019s guidance document \u201cUser Fees and Refunds for Premarket Notification Submissions (510(k)s).\u201d4",
+            "doc_id": "rta",
+            "doc_title": "Refuse to Accept Policy for 510(k)s (2022)",
+            "page": 7
+          },
+          {
+            "passage_id": 208,
+            "quote": "FDA will not process a 510(k) unless it meets the following requirements: i) the submission must be sent with the user fee required by section 738 of the FD&C Act, and ii) a valid eCopy is provided.",
+            "doc_id": "rta",
+            "doc_title": "Refuse to Accept Policy for 510(k)s (2022)",
+            "page": 13
+          }
+        ]
+      },
+      {
+        "id": "q07",
+        "found": true,
+        "verified": true,
+        "escalated": false,
+        "retrieved_gold": false,
+        "cites_gold_page": false,
+        "answer": "Under the 510(k) Refuse to Accept checklist, the submission must contain a Truthful and Accuracy Statement per 21 CFR 807.87(l). FDA provides a recommended format for it.",
+        "citations": [
+          {
+            "passage_id": 413,
+            "quote": "Submission contains a Truthful and Accuracy Statement per 21 CFR 807.87(l).",
+            "doc_id": "rta",
+            "doc_title": "Refuse to Accept Policy for 510(k)s (2022)",
+            "page": 95
+          }
+        ]
+      },
+      {
+        "id": "q08",
+        "found": true,
+        "verified": true,
+        "escalated": false,
+        "retrieved_gold": true,
+        "cites_gold_page": false,
+        "answer": "Before working through the RTA checklist items, the 510(k) lead reviewer first answers a set of preliminary questions as an initial screening, within 15 calendar days of receipt; these appear on the first page of the Acceptance Checklists. Depending on the answers, the rest of the acceptance review may or may not be needed, and the first preliminary question is whether the product is a device.",
+        "citations": [
+          {
+            "passage_id": 207,
+            "quote": "The preliminary questions are intended to be answered by the 510(k) lead reviewer as an initial screening of the submission.",
+            "doc_id": "rta",
+            "doc_title": "Refuse to Accept Policy for 510(k)s (2022)",
+            "page": 13
+          },
+          {
+            "passage_id": 207,
+            "quote": "Within 15 calendar days of receipt of the 510(k), FDA staff should answer the preliminary questions below, which are included on the first page of the Acceptance Checklists for Traditional and Abbreviated 510(k)s.",
+            "doc_id": "rta",
+            "doc_title": "Refuse to Accept Policy for 510(k)s (2022)",
+            "page": 13
+          },
+          {
+            "passage_id": 207,
+            "quote": "Depending upon the answers to these preliminary questions, the remainder of the acceptance review may or may not be necessary.",
+            "doc_id": "rta",
+            "doc_title": "Refuse to Accept Policy for 510(k)s (2022)",
+            "page": 13
+          },
+          {
+            "passage_id": 207,
+            "quote": "The preliminary questions are: 1. Is the product a device",
+            "doc_id": "rta",
+            "doc_title": "Refuse to Accept Policy for 510(k)s (2022)",
+            "page": 13
+          }
+        ]
+      },
+      {
+        "id": "q09",
+        "found": true,
+        "verified": true,
+        "escalated": false,
+        "retrieved_gold": false,
+        "cites_gold_page": false,
+        "answer": "If the submission cites FDA-recognized voluntary consensus standards, the RTA checklist expects a Declaration of Conformity (DOC) as outlined in FDA's standards guidance. If you instead cite general use of a recognized standard, or cite a non-recognized standard, include the basis of use along with the underlying information or data showing how the standard was used.",
+        "citations": [
+          {
+            "passage_id": 332,
+            "quote": "The submission includes a Declaration of Conformity (DOC) as outlined in FDA\u2019s guidance \u201cAppropriate Use of Voluntary Consensus Standards in Premarket Submissions for Medical Devices,\u201d",
+            "doc_id": "rta",
+            "doc_title": "Refuse to Accept Policy for 510(k)s (2022)",
+            "page": 60
+          },
+          {
+            "passage_id": 333,
+            "quote": "the basis of such use is included along with the underlying information or data that supports how the standard was used.",
+            "doc_id": "rta",
+            "doc_title": "Refuse to Accept Policy for 510(k)s (2022)",
+            "page": 60
+          },
+          {
+            "passage_id": 333,
+            "quote": "The basis of use is included along with the underlying information or data that supports how the standard was used.",
+            "doc_id": "rta",
+            "doc_title": "Refuse to Accept Policy for 510(k)s (2022)",
+            "page": 60
+          }
+        ]
+      },
+      {
+        "id": "q10",
+        "found": true,
+        "verified": true,
+        "escalated": false,
+        "retrieved_gold": true,
+        "cites_gold_page": true,
+        "answer": "Under the 2023 software guidance, Enhanced Documentation should be provided for any premarket submission with device software functions where a failure or flaw in any of them could present a hazardous situation with a probable risk of death or serious injury to a patient, user, or others in the environment of use. These risks should be assessed before risk control measures are implemented, and the Documentation Level reflects the device as a whole in the context of its intended use.",
+        "citations": [
+          {
+            "passage_id": 471,
+            "quote": "Enhanced Documentation should be provided for any premarket submission that includes device software function(s) where a failure or flaw of any device software function(s) could present a hazardous situation with a probable29 risk of death or serious injury,30 either to a patient, user of the device, or others in the environment of use.",
+            "doc_id": "swf",
+            "doc_title": "Content of Premarket Submissions for Device Software Functions (2023)",
+            "page": 12
+          },
+          {
+            "passage_id": 471,
+            "quote": "These risks should be assessed prior to implementation of risk control measures.",
+            "doc_id": "swf",
+            "doc_title": "Content of Premarket Submissions for Device Software Functions (2023)",
+            "page": 12
+          },
+          {
+            "passage_id": 471,
+            "quote": "The Documentation Level of a device is based on the risks of its device software function(s) in the context of the device\u2019s intended use,28 such that the documentation level reflects the device as a whole.",
+            "doc_id": "swf",
+            "doc_title": "Content of Premarket Submissions for Device Software Functions (2023)",
+            "page": 12
+          }
+        ]
+      }
+    ]
+  }
+}
