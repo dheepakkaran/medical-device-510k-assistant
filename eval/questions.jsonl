@@ -1,0 +1,20 @@
+{"id": "q01", "question": "Can I combine the intended use of one cleared device with the technology of a different cleared device to claim substantial equivalence?", "gold": [["se", 14]]}
+{"id": "q02", "question": "After choosing one predicate, can a submitter point to another device to support a new test method?", "gold": [["se", 16], ["se", 17]]}
+{"id": "q03", "question": "When will FDA ask for clinical study data to support a substantial equivalence decision?", "gold": [["se", 26], ["se", 27], ["se", 28]]}
+{"id": "q04", "question": "Does a different patient population in the indications always mean a new intended use?", "gold": [["se", 10]]}
+{"id": "q05", "question": "How quickly does FDA tell a sponsor whether a 510(k) is administratively complete?", "gold": [["rta", 5]]}
+{"id": "q06", "question": "Where can I find information about the fees and payment for a 510(k)?", "gold": [["rta", 7]]}
+{"id": "q07", "question": "Which signed statement required under 21 CFR 807.87(l) must the submission contain?", "gold": [["rta", 26]]}
+{"id": "q08", "question": "What does the FDA reviewer answer first, before checking the individual acceptance items?", "gold": [["rta", 9]]}
+{"id": "q09", "question": "If my submission relies on voluntary consensus standards, what document should I include?", "gold": [["rta", 30]]}
+{"id": "q10", "question": "When must a software submission provide the higher level of documentation?", "gold": [["swf", 12]]}
+{"id": "q11", "question": "Can the sponsor of a Class III device argue that the lower documentation level is enough?", "gold": [["swf", 13]]}
+{"id": "q12", "question": "How should known bugs that are not fixed in the release be handled in the system test report?", "gold": [["swf", 30]]}
+{"id": "q13", "question": "What should the software requirements list point out when the submission changes an already cleared device?", "gold": [["swf", 23]]}
+{"id": "q14", "question": "What questions should the overview of the device software answer?", "gold": [["swf", 17]]}
+{"id": "q15", "question": "Which ISO standard does FDA point to for the risk management file?", "gold": [["swf", 19]]}
+{"id": "q16", "question": "Can traceability between requirements, design, tests and hazards go in a separate document?", "gold": [["swf", 21]]}
+{"id": "q17", "question": "Which recognized standard covers the software life cycle process for medical device software?", "gold": [["swf", 7]]}
+{"id": "q18", "question": "What does the guidance mean by a new device?", "gold": [["se", 5]]}
+{"id": "q19", "question": "Does a refuse to accept decision change the start of the MDUFA review clock?", "gold": [["rta", 7]]}
+{"id": "q20", "question": "In the coated knee implant example, how is the first decision point on the flowchart answered?", "gold": [["se", 16]]}
