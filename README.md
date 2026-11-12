@@ -11,6 +11,10 @@ A small full-stack research aid for medical device regulatory work, built on pub
 
 > Research aid only, not regulatory advice. A person checks every output.
 
+<a href="https://dheepakkaran.github.io/medical-device-510k-assistant/#overview"><img src="docs/media/overview.webp" alt="35-second overview: ask a question, get an answer that quotes the exact FDA guidance page, every quote checked, and a draft list of earlier similar devices" width="100%"></a>
+
+<sub>35-second overview (silent preview). <a href="https://dheepakkaran.github.io/medical-device-510k-assistant/#overview">Watch it with sound on the project page →</a></sub>
+
 Project page: https://dheepakkaran.github.io/medical-device-510k-assistant/
 
 ![screenshot](docs/screenshot.png)
